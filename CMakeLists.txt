@@ -27,13 +27,6 @@ include_directories(${OPENGL_INCLUDE_DIRS})
 find_package(GLEW REQUIRED)
 include_directories(${GLEW_INCLUDE_DIRS})
 
-#target_link_libraries(
-#        ${EXE_NAME}
-#        glfw
-#        ${OPENGL_LIBRARIES}
-#        ${GLEW_LIBRARIES}
-#)
-
 if (APPLE)
     find_library(COCOA_LIBRARY Cocoa)
     find_library(OpenGL_LIBRARY OpenGL)
