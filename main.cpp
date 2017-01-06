@@ -7,6 +7,7 @@
 #include "imgui.h"
 #include "imgui_impl_glfw_gl3.h"
 #include <stdio.h>
+#include <iostream>
 
 static void error_callback(int error, const char* description)
 {
@@ -28,8 +29,7 @@ int main(int, char**)
     GLFWwindow* window = glfwCreateWindow(1280, 720, "ImGui OpenGL3 example", NULL, NULL);
     glfwMakeContextCurrent(window);
 
-    if (!glewInit())
-        return 1;
+    glewInit();
 
     // Setup ImGui binding
     ImGui_ImplGlfwGL3_Init(window, true);

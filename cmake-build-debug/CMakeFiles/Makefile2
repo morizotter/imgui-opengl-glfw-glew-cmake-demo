@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue
+CMAKE_SOURCE_DIR = /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug
 
 #=============================================================================
 # Target rules for target CMakeFiles/app.app.dir
@@ -69,7 +69,7 @@ CMAKE_BINARY_DIR = /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/cmake-bu
 CMakeFiles/app.app.dir/all:
 	$(MAKE) -f CMakeFiles/app.app.dir/build.make CMakeFiles/app.app.dir/depend
 	$(MAKE) -f CMakeFiles/app.app.dir/build.make CMakeFiles/app.app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target app.app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target app.app"
 .PHONY : CMakeFiles/app.app.dir/all
 
 # Include target in all.
@@ -79,9 +79,9 @@ all: CMakeFiles/app.app.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/app.app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/app.app.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/app.app.dir/rule
 
 # Convenience name for target.

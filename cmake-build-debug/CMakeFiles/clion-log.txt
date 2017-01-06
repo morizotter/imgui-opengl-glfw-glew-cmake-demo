@@ -1,4 +1,20 @@
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue
+-- The C compiler identification is AppleClang 8.0.0.8000042
+-- The CXX compiler identification is AppleClang 8.0.0.8000042
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
+-- Check for working C compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenGL: /System/Library/Frameworks/OpenGL.framework  
+-- Found GLEW: /usr/local/include  
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug
+-- Build files have been written to: /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug

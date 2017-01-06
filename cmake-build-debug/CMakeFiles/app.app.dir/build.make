@@ -46,10 +46,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue
+CMAKE_SOURCE_DIR = /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/app.app.dir/depend.make
@@ -62,16 +62,16 @@ include CMakeFiles/app.app.dir/flags.make
 
 CMakeFiles/app.app.dir/imgui.cpp.o: CMakeFiles/app.app.dir/flags.make
 CMakeFiles/app.app.dir/imgui.cpp.o: ../imgui.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.app.dir/imgui.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.app.dir/imgui.cpp.o -c /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/app.app.dir/imgui.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.app.dir/imgui.cpp.o -c /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui.cpp
 
 CMakeFiles/app.app.dir/imgui.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.app.dir/imgui.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui.cpp > CMakeFiles/app.app.dir/imgui.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui.cpp > CMakeFiles/app.app.dir/imgui.cpp.i
 
 CMakeFiles/app.app.dir/imgui.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.app.dir/imgui.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui.cpp -o CMakeFiles/app.app.dir/imgui.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui.cpp -o CMakeFiles/app.app.dir/imgui.cpp.s
 
 CMakeFiles/app.app.dir/imgui.cpp.o.requires:
 
@@ -86,16 +86,16 @@ CMakeFiles/app.app.dir/imgui.cpp.o.provides.build: CMakeFiles/app.app.dir/imgui.
 
 CMakeFiles/app.app.dir/imgui_demo.cpp.o: CMakeFiles/app.app.dir/flags.make
 CMakeFiles/app.app.dir/imgui_demo.cpp.o: ../imgui_demo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.app.dir/imgui_demo.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.app.dir/imgui_demo.cpp.o -c /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui_demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/app.app.dir/imgui_demo.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.app.dir/imgui_demo.cpp.o -c /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui_demo.cpp
 
 CMakeFiles/app.app.dir/imgui_demo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.app.dir/imgui_demo.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui_demo.cpp > CMakeFiles/app.app.dir/imgui_demo.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui_demo.cpp > CMakeFiles/app.app.dir/imgui_demo.cpp.i
 
 CMakeFiles/app.app.dir/imgui_demo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.app.dir/imgui_demo.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui_demo.cpp -o CMakeFiles/app.app.dir/imgui_demo.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui_demo.cpp -o CMakeFiles/app.app.dir/imgui_demo.cpp.s
 
 CMakeFiles/app.app.dir/imgui_demo.cpp.o.requires:
 
@@ -110,16 +110,16 @@ CMakeFiles/app.app.dir/imgui_demo.cpp.o.provides.build: CMakeFiles/app.app.dir/i
 
 CMakeFiles/app.app.dir/imgui_draw.cpp.o: CMakeFiles/app.app.dir/flags.make
 CMakeFiles/app.app.dir/imgui_draw.cpp.o: ../imgui_draw.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/app.app.dir/imgui_draw.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.app.dir/imgui_draw.cpp.o -c /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui_draw.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/app.app.dir/imgui_draw.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.app.dir/imgui_draw.cpp.o -c /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui_draw.cpp
 
 CMakeFiles/app.app.dir/imgui_draw.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.app.dir/imgui_draw.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui_draw.cpp > CMakeFiles/app.app.dir/imgui_draw.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui_draw.cpp > CMakeFiles/app.app.dir/imgui_draw.cpp.i
 
 CMakeFiles/app.app.dir/imgui_draw.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.app.dir/imgui_draw.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui_draw.cpp -o CMakeFiles/app.app.dir/imgui_draw.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui_draw.cpp -o CMakeFiles/app.app.dir/imgui_draw.cpp.s
 
 CMakeFiles/app.app.dir/imgui_draw.cpp.o.requires:
 
@@ -134,16 +134,16 @@ CMakeFiles/app.app.dir/imgui_draw.cpp.o.provides.build: CMakeFiles/app.app.dir/i
 
 CMakeFiles/app.app.dir/imgui_impl_glfw_gl3.cpp.o: CMakeFiles/app.app.dir/flags.make
 CMakeFiles/app.app.dir/imgui_impl_glfw_gl3.cpp.o: ../imgui_impl_glfw_gl3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/app.app.dir/imgui_impl_glfw_gl3.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.app.dir/imgui_impl_glfw_gl3.cpp.o -c /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui_impl_glfw_gl3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/app.app.dir/imgui_impl_glfw_gl3.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.app.dir/imgui_impl_glfw_gl3.cpp.o -c /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui_impl_glfw_gl3.cpp
 
 CMakeFiles/app.app.dir/imgui_impl_glfw_gl3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.app.dir/imgui_impl_glfw_gl3.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui_impl_glfw_gl3.cpp > CMakeFiles/app.app.dir/imgui_impl_glfw_gl3.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui_impl_glfw_gl3.cpp > CMakeFiles/app.app.dir/imgui_impl_glfw_gl3.cpp.i
 
 CMakeFiles/app.app.dir/imgui_impl_glfw_gl3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.app.dir/imgui_impl_glfw_gl3.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui_impl_glfw_gl3.cpp -o CMakeFiles/app.app.dir/imgui_impl_glfw_gl3.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui_impl_glfw_gl3.cpp -o CMakeFiles/app.app.dir/imgui_impl_glfw_gl3.cpp.s
 
 CMakeFiles/app.app.dir/imgui_impl_glfw_gl3.cpp.o.requires:
 
@@ -158,16 +158,16 @@ CMakeFiles/app.app.dir/imgui_impl_glfw_gl3.cpp.o.provides.build: CMakeFiles/app.
 
 CMakeFiles/app.app.dir/main.cpp.o: CMakeFiles/app.app.dir/flags.make
 CMakeFiles/app.app.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/app.app.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.app.dir/main.cpp.o -c /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/app.app.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/app.app.dir/main.cpp.o -c /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/main.cpp
 
 CMakeFiles/app.app.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/app.app.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/main.cpp > CMakeFiles/app.app.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/main.cpp > CMakeFiles/app.app.dir/main.cpp.i
 
 CMakeFiles/app.app.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/app.app.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/main.cpp -o CMakeFiles/app.app.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/main.cpp -o CMakeFiles/app.app.dir/main.cpp.s
 
 CMakeFiles/app.app.dir/main.cpp.o.requires:
 
@@ -197,11 +197,11 @@ app.app: CMakeFiles/app.app.dir/imgui_draw.cpp.o
 app.app: CMakeFiles/app.app.dir/imgui_impl_glfw_gl3.cpp.o
 app.app: CMakeFiles/app.app.dir/main.cpp.o
 app.app: CMakeFiles/app.app.dir/build.make
-app.app: /usr/local/lib/libglfw3.3.2.dylib
+app.app: /usr/local/lib/libglfw.3.2.dylib
 app.app: /usr/local/lib/libGLEW.dylib
 app.app: /usr/local/lib/libGLEW.dylib
 app.app: CMakeFiles/app.app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable app.app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable app.app"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/app.app.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -222,6 +222,6 @@ CMakeFiles/app.app.dir/clean:
 .PHONY : CMakeFiles/app.app.dir/clean
 
 CMakeFiles/app.app.dir/depend:
-	cd /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug/CMakeFiles/app.app.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug/CMakeFiles/app.app.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/app.app.dir/depend
 

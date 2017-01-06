@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imconfig.h
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imconfig.h
 
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui.cpp
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui.cpp
 imgui.h
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui.h
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui.h
 imgui_internal.h
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui_internal.h
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui_internal.h
 ctype.h
 -
 stdlib.h
@@ -26,17 +26,17 @@ stddef.h
 stdint.h
 -
 stb_textedit.h
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/stb_textedit.h
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/stb_textedit.h
 windows.h
 -
 imm.h
 -
 imgui_user.inl
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui_user.inl
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui_user.inl
 
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui.h
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui.h
 imconfig.h
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imconfig.h
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imconfig.h
 float.h
 -
 stdarg.h
@@ -48,11 +48,11 @@ string.h
 assert.h
 -
 imgui_user.h
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui_user.h
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui_user.h
 
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui_demo.cpp
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui_demo.cpp
 imgui.h
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui.h
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui.h
 ctype.h
 -
 math.h
@@ -66,11 +66,11 @@ stddef.h
 stdint.h
 -
 
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui_draw.cpp
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui_draw.cpp
 imgui.h
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui.h
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui.h
 imgui_internal.h
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui_internal.h
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui_internal.h
 stdio.h
 -
 malloc.h
@@ -80,15 +80,15 @@ stdlib.h
 alloca.h
 -
 stb_rect_pack.h
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/stb_rect_pack.h
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/stb_rect_pack.h
 stb_truetype.h
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/stb_truetype.h
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/stb_truetype.h
 
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui_impl_glfw_gl3.cpp
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui_impl_glfw_gl3.cpp
 imgui.h
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui.h
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui.h
 imgui_impl_glfw_gl3.h
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui_impl_glfw_gl3.h
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui_impl_glfw_gl3.h
 GL/glew.h
 -
 GLFW/glfw3.h
@@ -96,45 +96,47 @@ GLFW/glfw3.h
 GLFW/glfw3native.h
 -
 
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui_impl_glfw_gl3.h
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui_impl_glfw_gl3.h
 
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui_internal.h
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui_internal.h
 stdio.h
 -
 math.h
 -
 stb_textedit.h
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/stb_textedit.h
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/stb_textedit.h
 
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/main.cpp
-imgui.h
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui.h
-imgui_impl_glfw_gl3.h
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/imgui_impl_glfw_gl3.h
-stdio.h
--
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/main.cpp
 GL/glew.h
 -
 GLFW/glfw3.h
 -
+imgui.h
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui.h
+imgui_impl_glfw_gl3.h
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/imgui_impl_glfw_gl3.h
+stdio.h
+-
+iostream
+-
 
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/stb_rect_pack.h
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/stb_rect_pack.h
 stdlib.h
 -
 assert.h
 -
 
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/stb_textedit.h
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/stb_textedit.h
 string.h
 -
 
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/stb_truetype.h
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/stb_truetype.h
 stb_truetype.h
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/stb_truetype.h
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/stb_truetype.h
 stdio.h
 -
 stb_truetype.h
-/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/stb_truetype.h
+/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/stb_truetype.h
 math.h
 -
 math.h

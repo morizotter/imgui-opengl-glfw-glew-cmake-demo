@@ -1,4 +1,4 @@
-# Install script for directory: /Users/0frz16025/Desktop/imgui-cmake-app-crash-issue
+# Install script for directory: /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/0frz16025/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
