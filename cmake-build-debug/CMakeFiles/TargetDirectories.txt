@@ -1,6 +1,0 @@
-/Users/moritanaoki/Desktop/imgui-opengl-glfw-glew-cmake-demo/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/moritanaoki/Desktop/imgui-opengl-glfw-glew-cmake-demo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/moritanaoki/Desktop/imgui-opengl-glfw-glew-cmake-demo/cmake-build-debug/CMakeFiles/imgui-demo.app.dir
-/Users/moritanaoki/Desktop/imgui-opengl-glfw-glew-cmake-demo/cmake-build-debug/imgui/CMakeFiles/edit_cache.dir
-/Users/moritanaoki/Desktop/imgui-opengl-glfw-glew-cmake-demo/cmake-build-debug/imgui/CMakeFiles/rebuild_cache.dir
-/Users/moritanaoki/Desktop/imgui-opengl-glfw-glew-cmake-demo/cmake-build-debug/imgui/CMakeFiles/imgui.dir
