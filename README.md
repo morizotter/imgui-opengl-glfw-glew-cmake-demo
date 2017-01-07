@@ -1,6 +1,6 @@
 # imgui-opengl-glfw-cmake-demo
 
-This is a demo project for [ImGui](https://github.com/ocornut/imgui) with opegl 4.1, glfw3, glew and CMake. 
+This is a demo project for [ImGui](https://github.com/ocornut/imgui) with [opegl](https://www.opengl.org/), [glfw3](http://www.glfw.org/), [glew](http://glew.sourceforge.net/) and [CMake](https://cmake.org/). 
 
 The purpose of this project is to combine ImGui with glew and CMake. The original example is written with gl3w instead of glew. I personally preffers glew. As for CMake as a build system, I want to get used to it.
 
