@@ -2,7 +2,7 @@
 
 This is a demo project for [ImGui](https://github.com/ocornut/imgui) with [opegl](https://www.opengl.org/), [glfw3](http://www.glfw.org/), [glew](http://glew.sourceforge.net/) and [CMake](https://cmake.org/). 
 
-The purpose of this project is to combine ImGui with glew and CMake. The original example is written with gl3w instead of glew. I personally preffers glew. As for CMake as a build system, I want to get used to it.
+The purpose of this project is to combine ImGui with glew and CMake. The original example is written with gl3w instead of glew. I personally preffers glew. As for CMake, I want to get used to it to build.
 
 This project generates a stand alone demo app. Currently it is build only on Apple environment (only on Macs) but the build system and libraries are all crass-platform so it is possible to expand for build in Windows and Linux environment.
 
@@ -27,14 +27,14 @@ This project uses several libraries so you have to prepare these. If you've alre
 Install libraries:
 
 ```bash
-$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" // Install homebrew
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" # Install homebrew
 $ brew update
-$ brew install cmake
-$ brew install glfw // Install glfw3
-$ brew install glew // Install glew
+$ brew install cmake # Install CMake
+$ brew install glfw # Install glfw3
+$ brew install glew # Install glew
 ``` 
 
-Buid and generate a stand alone app:
+Build and generate a stand alone app:
 
 ```bash
 $ cd /to/project/root/
@@ -60,7 +60,8 @@ You'll find the app in the build directry.
 - [GLFW - An OpenGL library](http://www.glfw.org/)
 - [GLEW: The OpenGL Extension Wrangler Library](http://glew.sourceforge.net/)
 - [CMake](https://cmake.org/)
+- [Homebrew — The missing package manager for macOS](http://brew.sh/)
 
 ## Contributions
 
-This project is originall a by-product of my learning of CMake and ImGui. Your comments and pull request are always welcomed. 
+This project was originally a by-product of my learning of CMake and ImGui. Your comments and pull request are always welcomed. 
