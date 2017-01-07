@@ -6,6 +6,8 @@ The purpose of this project is to combine ImGui with glew and CMake. The origina
 
 This project generates a stand alone demo app. Currently it is build only on Apple environment (only on Macs) but the build system and libraries are all crass-platform so it is possible to expand for build in Windows and Linux environment.
 
+![mac-app.gif](https://cloud.githubusercontent.com/assets/536954/21741987/a3e00126-d528-11e6-81ce-4a1691e7ac6f.gif)
+
 ## A breaf explanation of ImGui
 
 It's easy to use simple GUI library for C++. It suits for 3D pipeline enabled application. The easiest way is just copy and add libraries in your project. That's all.
@@ -42,6 +44,8 @@ $ mkdir build && cd build
 $ cmake ..
 $ make
 ```
+
+Or you can build and run with [CLion](https://www.jetbrains.com/clion/).
 
 You'll find the app in the build directry.
 
