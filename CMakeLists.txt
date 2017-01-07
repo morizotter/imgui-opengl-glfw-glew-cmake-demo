@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.6)
-project(imgui-cmake-app-crash-issue)
+project(imgui-opengl-glfw-glew-cmake-demo)
 
 set(CMAKE_CXX_STANDARD 11)
 
@@ -7,12 +7,12 @@ set(CMAKE_VERBOSE_MAKEFILE 1)
 set(APP_VERSION_MAJOR 1)
 set(APP_VERSION_MINOR 0)
 
-set(EXE_NAME app.app)
+set(APP_TARGET imgui-demo.app)
 
+add_subdirectory(imgui)
 include_directories(${PROJECT_SOURCE_DIR})
-
-AUX_SOURCE_DIRECTORY(${PROJECT_SOURCE_DIR} SOURCES)
-add_executable(${EXE_NAME} ${SOURCES})
+add_executable(${APP_TARGET} main.cpp)
+target_link_libraries(${APP_TARGET} imgui)
 
 # glfw
 find_package(glfw3 REQUIRED)
@@ -35,14 +35,14 @@ if (APPLE)
     SET(EXTRA_LIBS ${COCOA_LIBRARY} ${OpenGL_LIBRARY} ${IOKIT_LIBRARY} ${COREVIDEO_LIBRARY})
 endif (APPLE)
 
+if (WIN32)
+# nothing now
+endif (WIN32)
+
 target_link_libraries(
-        ${EXE_NAME}
+        ${APP_TARGET}
         glfw
         ${OPENGL_LIBRARIES}
         ${GLEW_LIBRARIES}
         ${EXTRA_LIBS}
 )
-
-if (WIN32)
-# nothing now
-endif (WIN32)

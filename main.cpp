@@ -1,13 +1,13 @@
 // ImGui - standalone example application for Glfw + OpenGL 3, using programmable pipeline
 // If you are new to ImGui, see examples/README.txt and documentation at the top of imgui.cpp.
 
+#include <stdio.h>
+
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
 
-#include "imgui.h"
-#include "imgui_impl_glfw_gl3.h"
-#include <stdio.h>
-#include <iostream>
+#include <imgui/imgui.h>
+#include <imgui/imgui_impl_glfw_gl3.h>
 
 static void error_callback(int error, const char* description)
 {
@@ -34,7 +34,7 @@ int main(int, char**)
     // Setup ImGui binding
     ImGui_ImplGlfwGL3_Init(window, true);
 
-    // Load Fonts
+    // Load FontsR
     // (there is a default font, this is only if you want to change it. see extra_fonts/README.txt for more details)
     //ImGuiIO& io = ImGui::GetIO();
     //io.Fonts->AddFontDefault();

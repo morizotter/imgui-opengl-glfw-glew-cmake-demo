@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = -DGLFW_DLL
 
-CXX_INCLUDES = -I/Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue -isystem /usr/local/include 
+CXX_INCLUDES = -I/Users/moritanaoki/Desktop/imgui-opengl-glfw-glew-cmake-demo -isystem /usr/local/include 
 

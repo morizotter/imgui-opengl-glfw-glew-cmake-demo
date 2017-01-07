@@ -1,4 +1,4 @@
-# Install script for directory: /Users/moritanaoki/Desktop/imgui-opengl-glfw-glew-cmake-demo
+# Install script for directory: /Users/moritanaoki/Desktop/imgui-opengl-glfw-glew-cmake-demo/imgui
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -27,19 +27,3 @@ if(NOT CMAKE_INSTALL_COMPONENT)
   endif()
 endif()
 
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("/Users/moritanaoki/Desktop/imgui-opengl-glfw-glew-cmake-demo/cmake-build-debug/imgui/cmake_install.cmake")
-
-endif()
-
-if(CMAKE_INSTALL_COMPONENT)
-  set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
-else()
-  set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
-endif()
-
-string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
-       "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/moritanaoki/Desktop/imgui-opengl-glfw-glew-cmake-demo/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
-     "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -51,10 +51,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue
+CMAKE_SOURCE_DIR = /Users/moritanaoki/Desktop/imgui-opengl-glfw-glew-cmake-demo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/moritanaoki/Desktop/imgui-opengl-glfw-glew-cmake-demo/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -83,9 +83,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug/CMakeFiles /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/moritanaoki/Desktop/imgui-opengl-glfw-glew-cmake-demo/cmake-build-debug/CMakeFiles /Users/moritanaoki/Desktop/imgui-opengl-glfw-glew-cmake-demo/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/moritanaoki/Desktop/imgui-cmake-app-crash-issue/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/moritanaoki/Desktop/imgui-opengl-glfw-glew-cmake-demo/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -114,125 +114,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named app.app
+# Target rules for targets named imgui-demo.app
 
 # Build rule for target.
-app.app: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 app.app
-.PHONY : app.app
+imgui-demo.app: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 imgui-demo.app
+.PHONY : imgui-demo.app
 
 # fast build rule for target.
-app.app/fast:
-	$(MAKE) -f CMakeFiles/app.app.dir/build.make CMakeFiles/app.app.dir/build
-.PHONY : app.app/fast
+imgui-demo.app/fast:
+	$(MAKE) -f CMakeFiles/imgui-demo.app.dir/build.make CMakeFiles/imgui-demo.app.dir/build
+.PHONY : imgui-demo.app/fast
 
-imgui.o: imgui.cpp.o
+#=============================================================================
+# Target rules for targets named imgui
 
-.PHONY : imgui.o
+# Build rule for target.
+imgui: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 imgui
+.PHONY : imgui
 
-# target to build an object file
-imgui.cpp.o:
-	$(MAKE) -f CMakeFiles/app.app.dir/build.make CMakeFiles/app.app.dir/imgui.cpp.o
-.PHONY : imgui.cpp.o
-
-imgui.i: imgui.cpp.i
-
-.PHONY : imgui.i
-
-# target to preprocess a source file
-imgui.cpp.i:
-	$(MAKE) -f CMakeFiles/app.app.dir/build.make CMakeFiles/app.app.dir/imgui.cpp.i
-.PHONY : imgui.cpp.i
-
-imgui.s: imgui.cpp.s
-
-.PHONY : imgui.s
-
-# target to generate assembly for a file
-imgui.cpp.s:
-	$(MAKE) -f CMakeFiles/app.app.dir/build.make CMakeFiles/app.app.dir/imgui.cpp.s
-.PHONY : imgui.cpp.s
-
-imgui_demo.o: imgui_demo.cpp.o
-
-.PHONY : imgui_demo.o
-
-# target to build an object file
-imgui_demo.cpp.o:
-	$(MAKE) -f CMakeFiles/app.app.dir/build.make CMakeFiles/app.app.dir/imgui_demo.cpp.o
-.PHONY : imgui_demo.cpp.o
-
-imgui_demo.i: imgui_demo.cpp.i
-
-.PHONY : imgui_demo.i
-
-# target to preprocess a source file
-imgui_demo.cpp.i:
-	$(MAKE) -f CMakeFiles/app.app.dir/build.make CMakeFiles/app.app.dir/imgui_demo.cpp.i
-.PHONY : imgui_demo.cpp.i
-
-imgui_demo.s: imgui_demo.cpp.s
-
-.PHONY : imgui_demo.s
-
-# target to generate assembly for a file
-imgui_demo.cpp.s:
-	$(MAKE) -f CMakeFiles/app.app.dir/build.make CMakeFiles/app.app.dir/imgui_demo.cpp.s
-.PHONY : imgui_demo.cpp.s
-
-imgui_draw.o: imgui_draw.cpp.o
-
-.PHONY : imgui_draw.o
-
-# target to build an object file
-imgui_draw.cpp.o:
-	$(MAKE) -f CMakeFiles/app.app.dir/build.make CMakeFiles/app.app.dir/imgui_draw.cpp.o
-.PHONY : imgui_draw.cpp.o
-
-imgui_draw.i: imgui_draw.cpp.i
-
-.PHONY : imgui_draw.i
-
-# target to preprocess a source file
-imgui_draw.cpp.i:
-	$(MAKE) -f CMakeFiles/app.app.dir/build.make CMakeFiles/app.app.dir/imgui_draw.cpp.i
-.PHONY : imgui_draw.cpp.i
-
-imgui_draw.s: imgui_draw.cpp.s
-
-.PHONY : imgui_draw.s
-
-# target to generate assembly for a file
-imgui_draw.cpp.s:
-	$(MAKE) -f CMakeFiles/app.app.dir/build.make CMakeFiles/app.app.dir/imgui_draw.cpp.s
-.PHONY : imgui_draw.cpp.s
-
-imgui_impl_glfw_gl3.o: imgui_impl_glfw_gl3.cpp.o
-
-.PHONY : imgui_impl_glfw_gl3.o
-
-# target to build an object file
-imgui_impl_glfw_gl3.cpp.o:
-	$(MAKE) -f CMakeFiles/app.app.dir/build.make CMakeFiles/app.app.dir/imgui_impl_glfw_gl3.cpp.o
-.PHONY : imgui_impl_glfw_gl3.cpp.o
-
-imgui_impl_glfw_gl3.i: imgui_impl_glfw_gl3.cpp.i
-
-.PHONY : imgui_impl_glfw_gl3.i
-
-# target to preprocess a source file
-imgui_impl_glfw_gl3.cpp.i:
-	$(MAKE) -f CMakeFiles/app.app.dir/build.make CMakeFiles/app.app.dir/imgui_impl_glfw_gl3.cpp.i
-.PHONY : imgui_impl_glfw_gl3.cpp.i
-
-imgui_impl_glfw_gl3.s: imgui_impl_glfw_gl3.cpp.s
-
-.PHONY : imgui_impl_glfw_gl3.s
-
-# target to generate assembly for a file
-imgui_impl_glfw_gl3.cpp.s:
-	$(MAKE) -f CMakeFiles/app.app.dir/build.make CMakeFiles/app.app.dir/imgui_impl_glfw_gl3.cpp.s
-.PHONY : imgui_impl_glfw_gl3.cpp.s
+# fast build rule for target.
+imgui/fast:
+	$(MAKE) -f imgui/CMakeFiles/imgui.dir/build.make imgui/CMakeFiles/imgui.dir/build
+.PHONY : imgui/fast
 
 main.o: main.cpp.o
 
@@ -240,7 +145,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/app.app.dir/build.make CMakeFiles/app.app.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/imgui-demo.app.dir/build.make CMakeFiles/imgui-demo.app.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -249,7 +154,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/app.app.dir/build.make CMakeFiles/app.app.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/imgui-demo.app.dir/build.make CMakeFiles/imgui-demo.app.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -258,7 +163,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/app.app.dir/build.make CMakeFiles/app.app.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/imgui-demo.app.dir/build.make CMakeFiles/imgui-demo.app.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -269,19 +174,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... app.app"
-	@echo "... imgui.o"
-	@echo "... imgui.i"
-	@echo "... imgui.s"
-	@echo "... imgui_demo.o"
-	@echo "... imgui_demo.i"
-	@echo "... imgui_demo.s"
-	@echo "... imgui_draw.o"
-	@echo "... imgui_draw.i"
-	@echo "... imgui_draw.s"
-	@echo "... imgui_impl_glfw_gl3.o"
-	@echo "... imgui_impl_glfw_gl3.i"
-	@echo "... imgui_impl_glfw_gl3.s"
+	@echo "... imgui-demo.app"
+	@echo "... imgui"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
