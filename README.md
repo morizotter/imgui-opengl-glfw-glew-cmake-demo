@@ -8,7 +8,7 @@ This project generates a stand alone demo app. Currently it is build only on App
 
 ![mac-app.gif](https://cloud.githubusercontent.com/assets/536954/21741987/a3e00126-d528-11e6-81ce-4a1691e7ac6f.gif)
 
-## A breaf explanation of ImGui
+## A brief explanation of ImGui
 
 It's easy to use simple GUI library for C++. It suits for 3D pipeline enabled application. The easiest way is just copy and add libraries in your project. That's all.
 
@@ -49,13 +49,34 @@ Or you can build and run with [CLion](https://www.jetbrains.com/clion/).
 
 You'll find the app in the build directry.
 
-### Windows
+### Windows (Visual Studio)
 
-*Currently no instructions - Your contribution are welcomed.*
+#### 1. Install Packages with [vcpkg](https://aka.ms/vcpkg)
+##### A. Install OpenGL (TODO)
+##### B. Install GLFW
+With command prompt or powershell, navigate to the folder where vcpkg is installed and execute the following commands to download the 64-bit and 32-bit versions of GLFW, respectively.
+```dos
+vcpkg install glfw3:x64-windows
+vcpkg install glfw3:x86-windows
+```
+##### C. Install GLEW
+Vcpkg can also install GLEW with the following commands
+```dos
+vcpkg install glew:x64-windows
+vcpkg install glew:x86-windows
+```
+##### D. Verify (optional)
+Check that the packages were installed with the command `vcpkg list`
+
+At this point, running CMake on the root directory of this project should finish without errors.
+
+#### 2. Try it out!
+Select `imgui-demo.app.exe` from the dropdown menu of startup items and press the big play button. A window should appear with fun knobby controls.
+
 
 ### Linux
 
-*Currently no instructions - Your contribution are welcomed.*
+*Currently no instructions - Your contribution is welcomed.*
 
 ## References
 
