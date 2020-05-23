@@ -70,6 +70,7 @@ At this point, running CMake on the root directory of this project should finish
 #### 2. Try it out!
 Select `imgui-demo.app.exe` from the dropdown menu of startup items and press the big play button. A window should appear with fun knobby controls.
 
+![app-windows](media/demo-windows.png)
 
 ### Linux
 
