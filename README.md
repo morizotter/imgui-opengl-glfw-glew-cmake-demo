@@ -2,11 +2,11 @@
 
 This is a demo project for [ImGui](https://github.com/ocornut/imgui) with [opegl](https://www.opengl.org/), [glfw3](http://www.glfw.org/), [glew](http://glew.sourceforge.net/) and [CMake](https://cmake.org/). 
 
-The purpose of this project is to combine ImGui with glew and CMake. The original example is written with gl3w instead of glew. I personally preffers glew. As for CMake, I want to get used to it to build.
-
 This project generates a stand alone demo app. Currently it has been built only on Apple and Windows environments, and, due to the structure of the project, linux builds should theoretically take minimal effort.
 
 ![mac-app.gif](https://cloud.githubusercontent.com/assets/536954/21741987/a3e00126-d528-11e6-81ce-4a1691e7ac6f.gif)
+
+---------------------
 
 ## A brief explanation of ImGui
 
@@ -18,11 +18,9 @@ The next citations are from it's [README](https://github.com/ocornut/imgui).
   
 > ImGui is designed to enable fast iteration and empower programmers to create content creation tools and visualization/ debug tools (as opposed to UI for the average end-user). It favors simplicity and productivity toward this goal, and thus lacks certain features normally found in more high-level libraries.
 
+-------------------------
+
 ## How to build this project
-
-It is really easy to use ImGui. The easiest way is for adding its sources to your project. in this demo, I aimed to use CMake as a build tool in a case cooperating with other sources.
-
-This project uses several libraries so you have to prepare these. If you've alreadly had them you can skip this instructions
 
 ### Mac
 
@@ -52,20 +50,19 @@ You'll find the app in the build directry.
 ### Windows (Visual Studio)
 
 #### 1. Install Packages with [vcpkg](https://aka.ms/vcpkg)
-##### A. Install OpenGL (TODO)
-##### B. Install GLFW
+##### A. Install GLFW
 With command prompt or powershell, navigate to the folder where vcpkg is installed and execute the following commands to download the 64-bit and 32-bit versions of GLFW, respectively.
 ```dos
 vcpkg install glfw3:x64-windows
 vcpkg install glfw3:x86-windows
 ```
-##### C. Install GLEW
+##### B. Install GLEW
 Vcpkg can also install GLEW with the following commands
 ```dos
 vcpkg install glew:x64-windows
 vcpkg install glew:x86-windows
 ```
-##### D. Verify (optional)
+##### C. Verify (optional)
 Check that the packages were installed with the command `vcpkg list`
 
 At this point, running CMake on the root directory of this project should finish without errors.
@@ -78,6 +75,8 @@ Select `imgui-demo.app.exe` from the dropdown menu of startup items and press th
 
 *Currently no instructions - Your contribution is welcomed.*
 
+-------------------------------
+
 ## References
 
 - [ocornut/imgui: Bloat-free Immediate Mode Graphical User interface for C++ with minimal dependencies](https://github.com/ocornut/imgui)
@@ -86,6 +85,9 @@ Select `imgui-demo.app.exe` from the dropdown menu of startup items and press th
 - [GLEW: The OpenGL Extension Wrangler Library](http://glew.sourceforge.net/)
 - [CMake](https://cmake.org/)
 - [Homebrew — The missing package manager for macOS](http://brew.sh/)
+
+
+-------------------------------
 
 ## Contributions
 
