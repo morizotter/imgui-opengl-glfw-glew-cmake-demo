@@ -4,7 +4,7 @@ This is a demo project for [ImGui](https://github.com/ocornut/imgui) with [opegl
 
 The purpose of this project is to combine ImGui with glew and CMake. The original example is written with gl3w instead of glew. I personally preffers glew. As for CMake, I want to get used to it to build.
 
-This project generates a stand alone demo app. Currently it is build only on Apple environment (only on Macs) but the build system and libraries are all crass-platform so it is possible to expand for build in Windows and Linux environment.
+This project generates a stand alone demo app. Currently it has been built only on Apple and Windows environments, and, due to the structure of the project, linux builds should theoretically take minimal effort.
 
 ![mac-app.gif](https://cloud.githubusercontent.com/assets/536954/21741987/a3e00126-d528-11e6-81ce-4a1691e7ac6f.gif)
 
