@@ -91,5 +91,6 @@ Select `imgui-demo.app.exe` from the dropdown menu of startup items and press th
 -------------------------------
 
 ## Contributions
+* [**m516**](https://github.com/m516): Windows support and documentation
 
 This project was originally a by-product of my learning of CMake and ImGui. Your comments and pull request are always welcomed. 
