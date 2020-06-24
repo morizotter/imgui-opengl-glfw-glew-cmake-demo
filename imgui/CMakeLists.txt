@@ -1,4 +1,8 @@
 cmake_minimum_required(VERSION 3.6)
+
+find_package(GLFW3 CONFIG REQUIRED)
+find_package(GLEW REQUIRED)
+
 add_library(
         imgui STATIC
         imconfig.h
@@ -13,3 +17,6 @@ add_library(
         stb_textedit.h
         stb_truetype.h
         )
+
+target_link_libraries(imgui PRIVATE GLEW::GLEW)
+target_link_libraries(imgui PRIVATE glfw)

@@ -50,3 +50,7 @@ CTestTestfile.cmake
 *.app
 
 
+# Visual Studio Files
+.vs/
+build/
+out/
