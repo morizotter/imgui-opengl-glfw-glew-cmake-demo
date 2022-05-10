@@ -49,4 +49,4 @@ CTestTestfile.cmake
 *.out
 *.app
 
-
+build/
